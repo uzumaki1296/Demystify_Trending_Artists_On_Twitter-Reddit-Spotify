@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify_Trends</title>
+</head>
+<center>
+	<font color="black" size="4" style="font-family: avenir">
+
+		<h1 style="color: rgb(13, 15, 13)">CS-415/515: Group 4+1_Chan</h1>
+		<h2 style="color: rgb(19, 20, 20)">Demystify Trends Of Artists With Twitter, Reddit and Spotify API </h2>
+		<p style="color: rgb(19, 20, 20)">This project’s main objective is to analyze data on currently popular
+			musicians in the context of numerous social trends.Reddit and Twitter
+			are social media web platforms that millions of people use to share
+			their ideas and opinions on a variety of topics. In this project, we collected millions of posts
+			tagged with "r/spotify", "r/music", "r/musician", "r/singer," etc. using
+			Reddit API and also related tweets that refer to certain Spotify
+			tunes, music, albums and artists from Twitter API. We analysed
+			those tweets and posts,gather track-related data using the Spotify API.
+			Finally, we identified the artists who are now trending by using
+			the information.We used the Spotify API to analyse information about the tracks. We
+			plotted diffferent type of graphs in this analysis. Taken together, our
+			results provide a datadriven, analysis of tranding artist in perticular
+			time frame in music industry</p>
+		<body bgcolor="white">
+			<form action="/plotsongs" autocomplete="on" method = "POST" enctype="multipart/form-data">
+				<span style="font-weight: bold;">Top Tranding Artist on Twitter</span><br><br>
+				<label for="date1">Choose a Date:</label>
+				<select name="date1" id="date1">
+				  <option value="select">select</option>
+				  <option value="26Nov">26Nov</option>
+				  <option value="27Nov">27Nov</option>
+				  <option value="28Nov">28Nov</option>
+				  <option value="29Nov">29Nov</option>
+				</select>
+				<br><br>
+				<!-- <img src="/home/kkhade1/reddit_image.png" alt="artists" width="128" height="128"> -->
+				<button type="submit" style="font-weight: bold; background: rgb(142, 146, 143); height: 45px; width: 200px; color: rgb(20, 20, 20); font:oblique;">Trending Artists on Twitter</button>
+			
+			</form>
+			<br><br>
+			<form action="/plotartists" autocomplete="on" method = "POST" enctype="multipart/form-data">
+				<span style="font-weight: bold;">Top Tranding Artist on Reddit</span><br><br>
+				<label for="date1">Choose a Date:</label>
+				<select name="date1" id="date1">
+				  <option value="select">select</option>
+				  <option value="26Nov">26Nov</option>
+				  <option value="27Nov">27Nov</option>
+				  <option value="28Nov">28Nov</option>
+				  <option value="29Nov">29Nov</option>
+				</select>
+				<br><br>
+		  		<button type="submit" style="font-weight: bold; background: rgb(142, 146, 143); height: 45px; width: 200px; color: rgb(27, 26, 26); size: 5; font:oblique;">Trending Artists on Reddit</button>
+			</form>
+			<form action="/comparisonplot" autocomplete="on" method = "POST" enctype="multipart/form-data">
+				<br><br>
+				<span style="font-weight: bold;">Comparison between Twitter and Reddit API data</span>
+				<br><br>
+		  		<button type="submit" style="font-weight: bold; background: rgb(142, 146, 143); height: 45px; width: 200px; color: rgb(17, 16, 16); size: 5; font:oblique;">Comparison of Twitter and reddit data</button>
+			</form>
+			<DIV align="left">
+				<p style="font-weight: bold; font-size: 25; color: rgb(19, 20, 20)">Guidance: </p>
+				<P style="color: rgb(19, 20, 20)">Prof. Jeremy Blackburn and Mr. Jay Patel (TA)</P>
+			</DIV> 
+			<!-- <a href="/about">About Us</a> -->
+		</body>
+
+	</font>
+</center>
+</html>
