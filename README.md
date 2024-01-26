@@ -1,4 +1,5 @@
-Project Abstract
+# Project Abstract
+
 <p>
 Millions of people use Twitter and reddit as a social media web platform tool to express their thoughts and opinions on a range of subjects. As a result, a stream of text data, made up of enormous numbers of tweets, posts, comments, 'r/spotify', 'r/music','r/musican','r/singer'etc is generated. For this project, we’re especially seeking tweets, posts etc that refer to certain Spotify tunes, music, albums and artists. We analyse those tweets, 'r/spotify', 'r/music' ,'r/musican', 'r/singer', posts, and comments and gather track-related data using the Spotify API. Finally, we want to identify the artists who are now trending by using the information we’ve acquired in combination with a particular time frame.
 </p>
